@@ -29,6 +29,7 @@ $$
 \frac{1}{n}\sum_{i=1}^ny_i
 \end{align*}
 $$
+(sometimes)
 - You can include images ![yaupon](./images/yaupon.jpeg)
 - You can include links [yaupon](https://www.inaturalist.org/observations/28146000)
 - You can even make tables that you can read as plain text
@@ -75,7 +76,6 @@ pandoc first-markdown.md -o artifacts/first-markdown.odt
 pandoc -s first-markdown.md -o artifacts/first-markdown.docx
 # pdf
 pandoc first-markdown.md -o --toc artifacts/first-markdown.pdf
-
 # Beamer Slides
 pandoc -t beamer first-markdown.md -o artifacts/first-markdown-beamer.pdf
 ```
