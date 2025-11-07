@@ -79,3 +79,5 @@ pandoc first-markdown.md -o --toc artifacts/first-markdown.pdf
 # Beamer Slides
 pandoc -t beamer first-markdown.md -o artifacts/first-markdown-beamer.pdf
 ```
+
+Your can see some example outputs [here](./artifacts)
