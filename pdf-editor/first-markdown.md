@@ -16,5 +16,5 @@ $\bar{y}=\sum_{i=1}^n y_i$
 Figure \ref{ilex-vomitoria} is Yaupon Holly *ilex vomitoria*. It is native to North America and it makes a highly caffeinated tea with lots of antioxidants. It also has less tannins than traditional tea so it is less bitter. Despite its pointed scientific name, I like it a whole lot.
 
 
-![Ilex Vomitoria (a.k.a. Ilex-it-a-lot) \label{ilex-vomitoria}](./images/yaupon.jpeg "Yaupon Holy"){ width=30% }
+![*ilex vomitoria* (a.k.a. *ilex alot*) \label{ilex-vomitoria}](./images/yaupon.jpeg "Yaupon Holy"){ width=30% }
 
