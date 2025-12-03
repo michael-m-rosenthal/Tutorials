@@ -15,7 +15,9 @@ Source: https://pandoc.org/
 
 Back in 2008, I had to learn how to type up mathematical proofs in LaTeX for Advanced Calculus homeworks with [Prof. King](https://squash.1gainesville.com/info.jksched.html) at the University of Florida. Years later, I continued to use it in graduate school to write [my dissertation](https://repository.lib.fsu.edu/islandora/object/fsu:254496) and several published journal articles. LaTeX with pdflatex has all the capabilities needed to edit PDF documents, but it is a typeset language. It is not a GUI like Adobe.
 
-When I entered the workforce, they wanted me to use `.docx` format so that people could edit the file to make it fit a particular template. For years, I straddled document versions. At one point I made my own javascript text editor using MathJax because I could more easily convert the LaTeX math equations. I learned to type up my technical write-ups as `.docx` files and lived a bit subdued for a while. Every time I handed it off to someone else, they broke all the referenced equations, tables, and figures. I had to fix them manually. This problem is exactly what LaTeX is made to solve. It takes the accessible options that people use to make poor template design choices and places it rightfully to people know how to make the document look good.
+Early in my career, workplace standards mandated the use of the .docx format, primarily to allow others to freely edit files and adapt them to various templates. Navigating document versions became a constant struggle. I even went so far as to build a custom JavaScript text editor powered by MathJax to streamline the conversion of complex mathematical equations from LaTeX. Despite adapting to typing my technical work in .docx, a significant amount of effort was wasted: nearly every file transfer led to the rupture of equation, table, and figure references, demanding my manual intervention to correct them.
+
+This common professional pain point is exactly what LaTeX eliminates. Its core value is the separation of authorial focus on content from the automatic handling of professional document design, resulting in consistently formatted, high-quality output that resists structural breakage.
 
 Then I learned about Markdown and Pandoc. I like Markdown because it is more accessible and less intimidating than LaTeX. Guess what, this `README.md` file is written in markdown and github renders it to display it for you. The `.md` extension stands for markdown (I think), but it is just a plain text document with some very intuitive human readable syntax.
 
@@ -82,5 +84,6 @@ pandoc -t beamer first-markdown.md -o artifacts/first-markdown-beamer.pdf
 
 
 You can see some example outputs [here](./artifacts)
+
 
 
